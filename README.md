@@ -2,7 +2,7 @@
 
 Añade **https://anicat-org.github.io/** en Kodi → Gestor de archivos → Añadir fuente.
 Después abre Add-ons → Instalar desde un archivo .zip → esa fuente y selecciona
-`repository.anicat-1.0.0.zip`. Instala AniCAT desde AniCAT Repository.
+`repository.anicat-1.0.1.zip`. Instala AniCAT desde AniCAT Repository.
 
 `public/` contiene un índice HTML sencillo y el ZIP directamente en la raíz.
 El workflow de `anicat-org/repository.anicat` sincroniza esos archivos mediante
