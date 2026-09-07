@@ -9,10 +9,10 @@ El workflow de `anicat-org/repository.anicat` sincroniza esos archivos mediante
 una deploy key limitada a este repositorio. Aquí Pages publica únicamente `public/`.
 El índice no requiere JavaScript ni redirecciones.
 
-La landing y el servicio de actualizaciones siguen en
-https://anicat-org.github.io/repository.anicat/.
+El servicio de actualizaciones sigue en
+https://anicat-org.github.io/repository.anicat/ (redirige a https://repo.ani.cat/).
+Ese sitio también muestra un índice de archivos; la landing está en `descargar.html`.
 
-El futuro dominio `repo.ani.cat` debe configurarse en este sitio raíz, con un
-CNAME DNS hacia `anicat-org.github.io` y HTTPS en Pages. El dominio no está activado.
-Al migrar, también hay que revisar las URL del repositorio instalable y las
-redirecciones de los sitios de proyecto antes de publicar una nueva versión.
+`repo.ani.cat` está configurado en Pages de `repository.anicat`, con CNAME DNS
+hacia `anicat-org.github.io` y HTTPS. Este sitio mantiene disponible la fuente
+alternativa en la dirección original de GitHub. No es necesario mover el dominio.
